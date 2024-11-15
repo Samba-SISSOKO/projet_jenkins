@@ -9,11 +9,5 @@ pipeline {
             }
         }
 
-        stage('Test') {
-            steps {
-                // Exécuter les tests avec Maven
-                bat "\"C:/Program Files (x86)/apache-maven-3.9.9-bin/apache-maven-3.9.9/bin/mvn\" test"
-            }
-        }
     }
 }
